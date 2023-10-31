@@ -12,7 +12,7 @@ body {
 }
 
 /* Menu */
-nav {
+#navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,7 +20,7 @@ nav {
     font-family: var(--font-text);
 }
 
-nav img {
+#navbar img {
     margin-right: -7rem;
 }
 
@@ -64,7 +64,7 @@ button {
 #cabecalho a {
     font-family: var(--font-text);
     font-size: 1rem;
-    font-style: normal;
+
     font-weight: 600;
     line-height: 1.5rem;
     color: var(--color-destaque);
@@ -75,7 +75,7 @@ button {
     color: var(--gray-900, #101828);
     font-family: var(--font-text);
     font-size: 3rem;
-    font-style: normal;
+
     font-weight: 600;
     line-height: 125%;
     letter-spacing: -0.96px;
@@ -85,8 +85,40 @@ button {
     color: var(--gray-500, #667085);
     text-align: center;
     font-family: var(--font-text);
-    font-size: 1.3rem;
-    font-style: normal;
+    font-size: 2.1rem;
+
     font-weight: 400;
-    line-height: 30px;
+    line-height: 40px;
+}
+
+/* Main - metricas */
+#metricas {
+    display: flex;
+    padding: 0px 70px;
+    gap: 60px;
+}
+
+#metricas h1 {
+    color: var(--color-destaque);
+    font-family: var(--font-text);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+
+#metricas h2 {
+    color: var(--gray-900, #101828);
+    font-family: var(--font-text);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#metricas p {
+    color: var(--gray-500, #667085);
+    font-family: var(--font-text);
+    font-size: 0.98em;
+    font-weight: 400;
+    line-height: 24px;
 }
